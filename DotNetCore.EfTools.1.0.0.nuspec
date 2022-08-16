@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DotNetCore.EfTools</id>
+    <version>1.0.0</version>
+    <authors>Oleksandr Kushnir</authors>
+    <owners></owners>
+    <developmentDependency>true</developmentDependency>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\eftools.psd1" target="tools\eftools.psd1" />
+    <file src="tools\eftools.psm1" target="tools\eftools.psm1" />
+    <file src="tools\init.ps1" target="tools\init.ps1" />
+  </files>
+</package>
