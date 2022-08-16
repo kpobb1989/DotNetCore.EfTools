@@ -5,7 +5,7 @@ EfTools provides alias for common EntityFramework CLI commands and simplifies wo
 Prerequisites
 1. Install Microsoft.EntityFrameworkCore.Tools to your host project
 2. Install DotNetCore.EfTools to your host project
-3. Add "EFProject": "<Project name that contains DbContext>" in your appsettings.json
+3. Add "EFProject": "Project_Name_Contains_DbContext" in your appsettings.json
 
 New CLI alias:
 ```
