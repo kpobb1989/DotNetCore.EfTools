@@ -10,6 +10,7 @@ You do not need to change your startup project anymore to the one that has the D
 
 Sample
 
+```
 {
   "EFProject":  "App.DB",
   "Logging": {
@@ -20,3 +21,4 @@ Sample
   },
   "AllowedHosts": "*"
 }
+```
