@@ -1,15 +1,20 @@
 # DotNetCore.EfTools
 
-EfTools provides alias for common EntityFramework CLI commands
+EfTools provides alias for common EntityFramework CLI commands and simplifies working with EF in the Solution. No need to change your startup project anymore to the one that contains DbContext, since you can specify EFProject in your appsettings.json
 
-efam => Add-Migration -p EFProject
+Prerequisites
+1. Install Microsoft.EntityFrameworkCore.Tools to your host project
+2. Install DotNetCore.EfTools to your host project
+3. Add "EFProject": "<Project name that contains DbContext>" in your appsettings.json
 
-efrm (-f optional) => Remove-Migration -p EFProject
-
-You do not need to change your startup project anymore to the one that has the DbContext class. All you need to do just add EFProject to your appsettings.json
-
-Sample
-
+New CLI alias:
+```
+efam // the same as Add-Migration -p EFProject
+  
+efrm (-f optional) // the same as Remove-Migration -p EFProject
+```
+  
+appsettings.json sample
 ```
 {
   "EFProject":  "App.DB",
