@@ -17,13 +17,6 @@ efrm (-f optional) // the same as Remove-Migration -p EFProject
 appsettings.json sample
 ```
 {
-  "EFProject":  "App.DB",
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
-  "AllowedHosts": "*"
+  "EFProject":  "App.DB"
 }
 ```
